@@ -1,11 +1,9 @@
 function per_student_total_marks(){
-    const marks = document.getElementsByClassName("student4").value;
+    const marks = document.getElementsByClassName("student1");
     console.log(marks)
-    const sum = 0
-    marks.array.forEach(element => {
+    const sum=0
+    marks.forEach(element => {
         sum+=element;
     });
-    const total_mark_per_Student = sum
-    console.log(total_mark_per_Student)
-    document.getElementById("result1").innerHTML = sum(total_mark_per_Student)
+    console.log(sum)
 }
